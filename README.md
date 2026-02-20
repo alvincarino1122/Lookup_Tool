@@ -7,15 +7,16 @@ Your API keys must be entered in domain.py and ip.py. In domain.py, 1 API key is
 I chose VirusTotal, Abuseipdb, and IP2Location.io as you can make free accounts for these providers. If you have a paid account with any other provider, feel free to integrate. Keep in mind that most free API services have query limits.
 
 <br><b>Query limits for free accounts:</b></br>
-<br>VirusTotal: 4 requests per minute and 500 requests per day</br>
+VirusTotal: 4 requests per minute and 500 requests per day
 <br>Abuseipdb: 1000 requests per day</br>
-<br>ip2location.io: 1000 requests per day</br>
+ip2location.io: 1000 requests per day
 
 <br><b>Usage:</b></br>
+Save all 3 files in the same folder.
 <br>Launch from master.py</br>
-<br>i - lookup IP</br>
+i - lookup IP
 <br>d - lookup domain</br>
-<br>exit - exit program</br>
+exit - exit program
 
 You can compile the program once you have entered your API keys or you can keep using the tool as is without compiling.
 
