@@ -4,6 +4,13 @@ Python API lookup tool for IPs and Domains using VirusTotal, AbuseipDB, and IP2l
 <br><b>!!!IMPORTANT!!!</b></br>
 Your API keys must be entered in domain.py and ip.py. In domain.py, 1 API key is needed for the VirusTotal domain lookup. for ip.py, 3 API keys are needed each for VirusTotal, Abuseipdb, and IP2location.
 
+<br><b>!!!WARNING!!!</b></br>
+Remove you API keys before sharing. Sharing with your API keys embedded can cause charges if your accounts are in paid subscriptions.
+
+When using the tool, it will first try to resolve the IP or domain you entered.
+This is followed by information from the lookup providers.
+The last part gives you a URL of the lookup.
+
 I chose VirusTotal, Abuseipdb, and IP2Location.io as you can make free accounts for these providers. If you have a paid account with any other provider, feel free to integrate. Keep in mind that most free API services have query limits.
 
 <br><b>Query limits for free accounts:</b></br>
@@ -19,6 +26,3 @@ i - lookup IP
 exit - exit program
 
 You can compile the program once you have entered your API keys or you can keep using the tool as is without compiling.
-
-<br><b>!!!WARNING!!!</b></br>
-Remove you API keys before sharing. Sharing with your API keys embedded can cause charges if your accounts are in paid subscriptions.
