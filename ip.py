@@ -10,8 +10,13 @@ def ip_function():
 
     print("\n")
     # Resolve IP
-    hostname = socket.gethostbyaddr(IP_MAIN)
-    print(f"{IP_MAIN} resolves to {hostname[0]}")
+    try:
+        hostname = socket.gethostbyaddr(IP_MAIN)
+        print(f"{IP_MAIN} resolves to {hostname[0]}")
+    except socket.herror:
+        print(f"Could not resolve hostname for {IP_MAIN}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
     print("\n")
 
     print("*****Virus Total*****")
@@ -156,4 +161,5 @@ def ip_function():
 
 
 if __name__ == "__main__":
+
     ip_function()
